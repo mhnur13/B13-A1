@@ -17,7 +17,7 @@
     height: 44px;
     background-color: #30B868;
     border: none;
-    border-radius: 6px;
+    border-radius: 5px;
     color: #FFFFFF;
     font-size: 13px;
     font-weight: bolder;  
@@ -50,4 +50,90 @@ nav button:hover{
     gap: 20px;
     font-size: 12px;
     font-weight: bolder;
+}
+
+
+/* Hero section style here */
+
+.Hero-div{
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 9px;
+    background-image: url(../assets/hero-bg.png);
+    height: 360px;
+    max-width: 1600px;
+    margin: auto;
+    
+}
+
+
+.hero-p1{
+   background-color: #FFFFFF;
+   max-width: 120px;
+   margin: auto;
+  font-weight: 500px;
+   border-radius: 33px;
+   font-size: 9px;
+   height: 15px;
+   text-align: center;
+   margin-top: 55px;
+   color: #30B868;  
+   
+}
+
+.hero-h1{
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 35px;
+     
+}
+
+.hero-span{
+    color: #30B868;
+}
+
+.hero-p{
+    color: #FFFFFF;
+    font-size: 11px; 
+}
+
+.hero-btn{
+   display: flex;
+   justify-content: center;
+   gap: 9px;
+   margin-top: 15px;
+}
+
+.Arrow-btn{
+    background-color: #30B868;
+    color: #FFFFFF;
+    font-size: 9px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;  
+}
+
+.Arrow-icone{
+    height: 11px;
+}
+
+.play-btn{
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 9px;
+    border: 0.1px solid #FFFFFF;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+div button:hover{
+    background-color: red;
 }
