@@ -258,3 +258,49 @@ div button:hover{
     font-weight: 500px;
     
 }
+
+
+
+/* Early Access Style Start Here  */
+
+
+.Early-Access-parent{
+
+max-width: 1360px;
+margin: auto;
+margin-top: 100px;
+height: 350px;
+padding-bottom: 40px;
+}
+
+
+.Early-Access-child{
+  
+   text-align: center;
+   padding-top: 50px;
+}
+
+.Early-Access-h1{
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+.Early-Access-p1{
+    color: #627382;
+}
+
+
+
+.get-access-btn{
+    height: 50px;
+    width: 194px;
+    font-size: 18px;
+    background-color: #30B868;
+    color: #faf8f8;
+    border-radius: 5px;
+    border: none;
+   
+}
+
+
+
