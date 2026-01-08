@@ -137,3 +137,91 @@ nav button:hover{
 div button:hover{
     background-color: red;
 }
+
+
+/* Box Model Start here */
+
+/* .victor{
+    margin-top: 40px;
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    background-color: #30B868;
+    border-radius: 50px;
+    
+} */
+
+
+
+
+.Box-parent{
+    max-width: 1600px;
+    margin: auto;
+    margin-top: 8px;
+    height: 360px;
+    text-align: center;
+    margin-top: 50px;
+   
+}
+
+.Box-Child{
+
+    max-width: 1360px;
+    margin: auto;
+    margin-top: 8px;
+    
+}
+
+
+.box-h1{
+    font-size: 29px;
+    font-weight: bolder;
+    margin: auto;
+}
+
+.box-p1{
+    font-size: 10px;
+  margin: auto;
+  
+  color: #627382;  
+}
+
+
+.box-model{   
+    height: 200px;
+    width: 330px;
+    padding-top: 45px; 
+    margin-top: 23px;  
+    background-color: #faf8f8 ;
+    box-shadow: #faf6f6;   
+}
+
+.box-model-row{
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+}
+
+
+.box-img{
+    background-color:  #F95555;
+    height: 40px;
+    width: 40px;
+   align-items: center;
+    margin-left: 42%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+
+.img{
+    margin-top: 7px;
+    height: 23px;
+}
+
+
+.box-h2{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
