@@ -1,0 +1,53 @@
+
+
+/* Font style-opensans */
+*{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+
+/* Share styles */
+
+
+
+}
+
+.btn{
+    width: 164px;
+    height: 44px;
+    background-color: #30B868;
+    border: none;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bolder;  
+}
+
+
+
+/* Main Styles */
+
+nav button:hover{
+    background-color: red;
+}
+
+
+
+
+.nav-ber{
+    max-width: 1360px;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    font-weight: bolder;
+}
