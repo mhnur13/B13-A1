@@ -304,3 +304,48 @@ padding-bottom: 40px;
 
 
 
+/* footer section style here */
+
+
+
+.footer-div{
+    
+    max-width: 1600px;
+    margin: auto;
+    height: 350px;
+    background-color: #001931;
+}
+
+
+.footer-item{
+    
+    max-width: 1360px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 50px;
+   
+}
+
+.footer-img{
+    height: 60px;
+    padding-top: 30px;
+}
+
+
+.social-content{
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+.social-container{
+    color: #faf8f8;
+    
+}
+
+.footer-copyright{
+    color: #faf8f8;
+    text-align: center;
+    padding-top: 100px;
+}
